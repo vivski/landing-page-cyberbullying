@@ -330,14 +330,13 @@ export function ReportSection() {
             Registre o B.O. Online
           </h3>
           <p className="text-safe-foreground/80 max-w-xl mx-auto mb-6">
-            A maioria dos estados brasileiros oferece Delegacia Virtual para registrar 
-            ocorrências de crimes digitais sem sair de casa.
+          Em Alagoas, você pode utilizar a Delegacia Virtual da Polícia Civil (PC-AL) para registrar ocorrências de crimes digitais sem sair de casa, ou buscar atendimento especializado na Delegacia de Crimes Cibernéticos em Maceió.
           </p>
           <a
             href="#contatos"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white text-safe rounded-full font-semibold hover:bg-white/90 transition-colors"
           >
-            Ver delegacias por estado
+            Ver delegacias
             <ExternalLink className="w-4 h-4" />
           </a>
         </motion.div>

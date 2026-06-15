@@ -185,10 +185,10 @@ export function WhatIsSection() {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {[
-              { number: "37%", label: "dos jovens já sofreu cyberbullying no Brasil" },
-              { number: "1 em 3", label: "vítimas não conta para ninguém" },
+              { number: "27,2%", label: "dos jovens já sofreu cyberbullying no Brasil" },
               { number: "73%", label: "dos casos ocorrem em redes sociais" },
-              { number: "2-4 anos", label: "pena de prisão para cyberbullying" },
+              { number: "1 em 3", label: "vítimas não conta para ninguém" },
+              { number: "2x", label: "mais chances de desenvolver depressão e tentar o suicídio" },
             ].map((stat, i) => (
               <div key={i} className="text-center">
                 <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">{stat.number}</div>

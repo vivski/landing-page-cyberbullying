@@ -58,11 +58,11 @@ export function HeroSection() {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight text-balance"
             style={{ fontFamily: 'var(--font-outfit)' }}
           >
-            Cyberbullying{" "}
-            <span className="text-gradient">machuca</span>,<br />
-            mas juntos podemos{" "}
+            A internet não precisa ser um lugar {" "}
+            <span className="text-gradient">hostil</span>.<br />
+            Estamos aqui por{" "}
             <span className="relative">
-              <span className="text-primary">parar</span>
+              <span className="text-primary">você</span>
               <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 100 12" preserveAspectRatio="none">
                 <path d="M0 8 Q 25 0, 50 8 T 100 8" stroke="currentColor" strokeWidth="3" fill="none" className="text-primary/30" />
               </svg>
@@ -75,9 +75,9 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 md:mt-8 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty"
           >
-            Um espaço seguro para entender, denunciar e buscar ajuda. 
-            Aqui você encontra informações, apoio jurídico e psicológico, 
-            e uma comunidade que se importa com você.
+            Se você ou alguém que você conhece está sofrendo ataques online, este é o seu refúgio. 
+            Descubra como se defender, acesse apoio psicológico e jurídico especializado, 
+            e faça parte de uma comunidade que escolheu acolher em vez de silenciar.
           </motion.p>
 
           <motion.div
